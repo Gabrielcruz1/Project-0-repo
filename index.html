@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <script src="./main.js"></script>
+   <script src="./main.js" defer></script>
    <link rel="stylesheet" href="style.css">
 
     <title>Project 0</title>
 </head>
 <body>
-    <h1> Tamagatchi Game </h1> <br/>
-    
-<button id="Btn1"> sleepy </button> <p id="sleepy"> 10</p>  <br/> 
-<button id="Btn2">hungry </button> <p id="hungry">10</p> <br/>
-<button id="Btn3"> bored </button> <p id="bored">10</p> <br/>
-<button id="Btn4"> age </button> <p id="age"> 10</p> <br/>
-<input placeholder="name" type="text"> <br/>
-<button id="Btn5"> Start game </button> 
+
+     <h1> Tamagatchi Game </h1> <br/>
+
+     <h2 class="restMeter"> rest meter: 0 </h2>
+     <h2 class="hungryMeter"> hungry meter: 0</h2>
+     <h2 class="boredMeter"> bored meter: 0 </h2>
+
+    <div>
+<button id="restButton"> rest </button> 
+<button id="hungryButton">hungry </button> 
+<button id="boredButton"> bored </button> 
+<button id="startGame"> Start game </button>
+ </div>
+
+
 </body>
 </html>
+

@@ -1,10 +1,29 @@
-console.log("hello world")
-// buttons 
-const sleepButton = document.querySelector('#Btn1');
-const hungryButton = document.querySelector('#Btn2');
-const boredButton = document.querySelector('#Btn3');
-const startButton = document.querySelector('#Btn5');
-// health indicators
-const sleepHealth = document.querySelector('#sleepy');
-const hungryHealth = document.querySelector('#hungry');
-const boredHealth =  document.querySelector('#bored');
+
+const meter1 = document.querySelector('.restMeter');
+const meter2 = document.querySelector('.hungryMeter')
+
+const restButton = document.querySelector('#restButton');
+const hungryButton = document.querySelector('#hungryButton');
+const boredButton = document.querySelector('#boredButton');
+const startButton = document.querySelector('#startGame');
+
+
+// console.log(meter);
+
+// meter.forEach(h2 => {
+//     console.log("hello")
+// })
+
+let restRaiser = 0
+let hungryRaiser = 0
+
+
+restButton.addEventListener('click', () => {
+    restRaiser +=1
+    meter1.innerHTML = `rest meter: ${restRaiser} `
+})
+
+hungryButton.addEventListener('click', () => {
+    hungryRaiser +=1
+    meter2.innerHTML = `hungry meter: ${hungryRaiser}`
+})
