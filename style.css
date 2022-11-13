@@ -16,3 +16,27 @@ button {
 body {
     background-color: lightblue;
 }
+
+.restClass {
+    margin: 10px 10px 10px 0px ;
+    background-color: lightcoral;
+    color: white;
+}
+
+.hungryClass {
+    margin: 10px 10px 10px 0px ;
+    background-color: lightcoral;
+    color: white;
+}
+
+.boredClass {
+    margin: 10px 10px 10px 0px ;
+    background-color: lightcoral;
+    color: white;
+}
+
+.startClass {
+    margin: 10px 10px 10px 0px ;
+    background-color: lightcoral;
+    color: white;
+}
