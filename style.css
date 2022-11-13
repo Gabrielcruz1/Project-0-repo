@@ -1,4 +1,13 @@
 
+h1 {
+    text-align: center;
+    color: lightcoral
+}
+
+.age {
+    text-align: center;
+}
+
 button {
     color: blue;
     margin:5px 5px 0 0;
