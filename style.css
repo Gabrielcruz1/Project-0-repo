@@ -29,6 +29,11 @@ h1 {
     text-align: center;
 }
 
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+}
+
 .restClass {
     margin: 10px 10px 10px 0px ;
     background-color: lightcoral;

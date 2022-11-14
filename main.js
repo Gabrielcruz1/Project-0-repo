@@ -30,10 +30,10 @@ let ageRaiser = 0
      
  })
 
-
+// A FUNCTION THAT WILL ALERT THE USER LOST-GAME OVER
 function alertFunction(){
-    if(restRaiser === 10 || hungryRaiser === 10 || boredRaiser === 10){
-    alert("hello");
+    if(meter1 === 10 || hungryRaiser === 10 || boredRaiser === 10){
+    alert("Oh No! Game Over!");
     }
 }
 
@@ -44,8 +44,6 @@ function alertFunction(){
 //         clearInterval(timer)
 //     }
 // }
-
-
 
 // BELOW IS SET INTERVAL FUNCTION 
 // setInterval(() =>{   
