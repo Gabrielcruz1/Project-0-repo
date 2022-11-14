@@ -1,4 +1,4 @@
-// THE METERS SHOWN ON HTML
+// THE METERS SHOWN ON HTML-STORED IN VARIABLE
 const meter1 = document.querySelector('.restMeter')
 const meter2 = document.querySelector('.hungryMeter')
 const meter3 = document.querySelector('.boredMeter')
@@ -45,7 +45,7 @@ function alertFunction(){
 //     }
 // }
 
-// BELOW IS SET INTERVAL FUNCTION 
+// SET INTERVAL FUNCTION 
 // setInterval(() =>{   
 //    meter1.innerHTML = `Rest meter: ${restRaiser++}`
 //    meter2.innerHTML = `Hungry meter: ${hungryRaiser++}`
