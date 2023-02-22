@@ -48,24 +48,3 @@ boredButton.addEventListener('click', () => {
     meter3.innerHTML = `Bored meter: ${boredRaiser}`
 })
 
-// A FUNCTION THAT WILL ALERT THE USER LOST-GAME OVER
-// function alertFunction() {
-//     if (meter1 === 10 || meter2 === 10 || meter3 === 10) {
-//         alert("Oh No! Game Over!");
-//     };
-// }
-
-// END GAME FUNCTION THAT KILLS GAME WHEN ANY METER HITS 10
-// function endGame() {
-//     if (meter1 === 10 || meter2 === 10 || meter3 === 10) {
-//         clearInterval(timer)
-//     }
-// }
-
-// SET INTERVAL FUNCTION 
-// setInterval(() =>{   
-//    meter1.innerHTML = `Rest meter: ${restRaiser++}`
-//    meter2.innerHTML = `Hungry meter: ${hungryRaiser++}`
-//    meter3.innerHTML = `Bored meter: ${boredRaiser++}`
-//    meter4.innerHTML = `🐯 Age: ${ageRaiser++}`
-// }, 1000)
