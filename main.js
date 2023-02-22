@@ -10,6 +10,9 @@ const hungryButton = document.querySelector('#hungryButton');
 const boredButton = document.querySelector('#boredButton');
 const startButton = document.querySelector('#startGame');
 
+//PLAYER NAME 
+const playerName = document.querySelector('.inputClass')
+
 // INCREMENT
 let restRaiser = 0
 let hungryRaiser = 0
@@ -31,20 +34,26 @@ startButton.addEventListener('click', () => {
 
 })
 
-
 //DECREMENTING FUNCTIONS FOR METERS
 restButton.addEventListener('click', () => {
-    restRaiser -= 1
-    meter1.innerHTML = `Rest meter: ${restRaiser}`
+    // restRaiser -= 1
+    while (restRaiser >= 1) {
+        restRaiser -= 1
+        meter1.innerHTML = `Rest meter: ${restRaiser}`
+    }
 })
 
 hungryButton.addEventListener('click', () => {
-    hungryRaiser -= 1
-    meter2.innerHTML = `Hungry meter: ${hungryRaiser}`
+    while (hungryRaiser >= 1) {
+        hungryRaiser -= 1
+        meter2.innerHTML = `Hungry meter: ${hungryRaiser}`
+    }
 })
 
 boredButton.addEventListener('click', () => {
-    boredRaiser -= 1
-    meter3.innerHTML = `Bored meter: ${boredRaiser}`
+    while (boredRaiser >= 1) {
+        boredRaiser -= 1
+        meter3.innerHTML = `Bored meter: ${boredRaiser}`
+    }
 })
 
