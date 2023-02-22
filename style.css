@@ -5,16 +5,18 @@ body {
 
 h1 {
     text-align: center;
-    color: lightcoral
+    color: lightcoral;
 }
 
 .inputClass {
     margin: 0 auto;
-   text-align : center
+   text-align : center;
+   border-radius: 5px;
 }
 
 .ageMeter, .restMeter , .hungryMeter, .boredMeter {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .buttonDiv {
@@ -24,6 +26,8 @@ h1 {
 
 .restClass, .hungryClass, .boredClass, .startClass {
     margin: 10px 10px 10px 0px ;
+    padding:  4px 11px 4px 11px;
     background-color: lightcoral;
+    border-radius: 5px;
     color: white;
 }
