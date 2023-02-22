@@ -36,7 +36,6 @@ startButton.addEventListener('click', () => {
 
 //DECREMENTING FUNCTIONS FOR METERS
 restButton.addEventListener('click', () => {
-    // restRaiser -= 1
     while (restRaiser >= 1) {
         restRaiser -= 1
         meter1.innerHTML = `Rest meter: ${restRaiser}`

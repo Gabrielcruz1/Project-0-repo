@@ -13,19 +13,7 @@ h1 {
    text-align : center
 }
 
-.ageMeter {
-    text-align: center;
-}
-
-.restMeter {
-    text-align: center;
-}
-
-.hungryMeter {
-    text-align: center;
-}
-
-.boredMeter {
+.ageMeter, .restMeter , .hungryMeter, .boredMeter {
     text-align: center;
 }
 
@@ -34,25 +22,7 @@ h1 {
     justify-content: center;
 }
 
-.restClass {
-    margin: 10px 10px 10px 0px ;
-    background-color: lightcoral;
-    color: white;
-}
-
-.hungryClass {
-    margin: 10px 10px 10px 0px ;
-    background-color: lightcoral;
-    color: white;
-}
-
-.boredClass {
-    margin: 10px 10px 10px 0px ;
-    background-color: lightcoral;
-    color: white;
-}
-
-.startClass {
+.restClass, .hungryClass, .boredClass, .startClass {
     margin: 10px 10px 10px 0px ;
     background-color: lightcoral;
     color: white;
